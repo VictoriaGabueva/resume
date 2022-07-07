@@ -1,0 +1,136 @@
+body {
+	font-size: 16px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-weight: 600;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+
+.list li {
+	color: rgb(255, 255, 255);
+	padding: 3px;
+}
+
+.table {
+	width: 100%;
+}
+.table td {
+	padding-bottom: 10px;
+}
+.info {
+	margin-bottom: 20px;
+	display: flex;
+}
+.info h2,
+h3 {
+	margin-left: 20px;
+}
+
+.card {
+	border-radius: 30px;
+	padding: 5px 15px;
+	margin-bottom: 15px;
+}
+.bg-experience {
+	background-color: #f2cfbc;
+	border: 2px rgb(244, 184, 161) solid;
+}
+.bg-hobby {
+	background-color: #f7bda7;
+	border: 2px rgb(247, 136, 93) solid;
+}
+.bg-net {
+	background-color: #ff9e7e;
+	border: 2px rgb(242, 93, 34) solid;
+}
+.net {
+	display: flex;
+}
+.net a {
+	margin: 0px 10px;
+}
+.container {
+	max-width: 750px;
+	margin: auto;
+	padding-top: 20px;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #111;
+}
+
+a:active {
+	color: wheat;
+}
+
+.btn {
+	color: #111;
+	background: #ff9e7e;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	width: 130px;
+	margin: auto;
+}
+.btn:hover {
+	color: bisque;
+	opacity: 0.8;
+}
+
+.box {
+	width: 900px;
+	margin: auto;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	margin: auto;
+}
+h1 {
+	text-align: center;
+}
+input,
+textarea {
+	width: 100%;
+}
+.name {
+	margin: 5px;
+}
+
+@media (max-width: 650px) {
+	.box {
+		margin: auto;
+		font-size: small;
+		width: 80%;
+	}
+
+	.info {
+		font-size: 11px;
+		width: 80%;
+		margin: auto;
+		padding-bottom: 10px;
+		display: block;
+		text-align: center;
+	}
+
+	.name {
+		width: 75%;
+		font-size: small;
+		margin: auto;
+	}
+
+	h1 {
+		text-align: center;
+		font-size: 20px;
+	}
+	hr {
+		width: 80%;
+	}
+}
